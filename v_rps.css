@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+   
+body{
+    background-image: url("https://images.pexels.com/photos/2767614/pexels-photo-2767614.jpeg?cs=srgb&dl=pexels-david-ortega-2767614.jpg&fm=jpg");
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+
+}
+
+
+
+.rps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.title{
+    font-size: x-large;
+    text-decoration: 1px rgb(250, 250, 250) underline;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.rock,.paper,.scissor,.reset{
+    width: 150px;
+    margin: 20px;
+    padding: 15px 30px;
+    background-color: black;
+    color: red;
+    font-size: 20px;
+    border: none;
+    border-radius: 35%;
+    
+
+}
+
+.displayScores,.displayMoves{ 
+    background-color: red;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 15px;
+
+}
+
+
+
+
+

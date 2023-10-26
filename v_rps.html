@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>v_rock-paper-scissor</title>
+    <link rel="stylesheet" href="v_rps.css">
+</head>
+<body>
+    
+    <div class="rps">
+    <p class="title">Rock-paper-Scissor</p>
+    <div class="play_button">
+        <button 
+        onclick="playGame('rock') "
+        class="rock">
+        Rock</button>
+        <button
+        onclick="playGame('paper')"
+        class="paper">
+        Paper</button>
+        <button
+        onclick="playGame('scissor') "
+        class="scissor">
+        Scissor</button>
+       
+    </div>
+
+    
+    
+    
+    
+
+
+
+    <p class="displayScores">wins : 0 , losses : 0 , ties : 0</p>
+    <p class="displayMoves">Start your Game</p>
+    <button
+    onclick="resetScores() "
+    class="reset">
+    Reset</button>
+</div>
+    
+
+
+
+    <script src="v_rps.js"></script>
+</body>
+</html>
